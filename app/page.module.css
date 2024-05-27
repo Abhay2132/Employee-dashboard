@@ -1,0 +1,9 @@
+.dashboard_box{
+    --db-width: min(1000px, 98%);
+    width: var(--db-width);
+    margin: 1% 0;
+    /* background-color: red; */
+    position: relative;
+    left: calc(50% - var(--db-width) / 2);
+    border-radius: 10px;
+}
